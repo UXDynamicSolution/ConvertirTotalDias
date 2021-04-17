@@ -22,9 +22,9 @@ def descomponer_dias(total_dias):
 	calcular_dias = (total_dias-(descomponer_anios(total_dias) * PROMEDIO_ANNIO + descomponer_meses(total_dias) * PROMEDIO_MES))
 	return math.floor(calcular_dias)
 
-print(str(descomponer_anios(123)))
-print((descomponer_meses(123)))
-print(str(descomponer_dias(123)))
+print(str(descomponer_anios(3703)))
+print((descomponer_meses(3703)))
+print(str(descomponer_dias(3703)))
 
 
 	
