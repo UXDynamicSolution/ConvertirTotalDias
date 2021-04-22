@@ -11,6 +11,7 @@ def descomponer_meses(total_dias):
 	PROMEDIO_ANNIO = 365.20
 	PROMEDIO_MES   = 30.42
 
+
 	calcular_meses = math.floor(total_dias - descomponer_anios(total_dias) * PROMEDIO_ANNIO)
 	meses = math.floor(calcular_meses / PROMEDIO_MES)
 	return (meses)
